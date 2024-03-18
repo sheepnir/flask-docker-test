@@ -15,6 +15,12 @@ def about_us():
     # Render the 'about.html' template and return it as the response
     return render_template('about.html')
 
+# Define the circle route ("/circle")
+@app.route('/circle')
+def circle():
+    # Render the 'circle.html' template and return it as the response
+    return render_template('circle.html')
+
 # Check if the script is running as the main program
 if __name__ == '__main__':
     # Run the Flask application
